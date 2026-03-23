@@ -1,0 +1,28 @@
+name: pulse
+description: Pulse — a Flutter music player app.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  just_audio: ^0.9.36
+  audio_service: ^0.18.13
+  on_audio_query: ^2.9.0
+  flutter_riverpod: ^2.4.9
+  hive_flutter: ^1.1.0
+  permission_handler: ^11.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
